@@ -1,0 +1,29 @@
+{
+    "name": "caikyp/aulacomposer",
+    "description": "Conhecendo o Composer",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Caiky Pinheiro",
+            "email": "caikypfdes@gmail.com",
+            "role": "Desenvolvedor",
+            "homepage": "https://github.com/caikyp"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "lib/"
+        },
+        "files": [
+            "lib/config.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
